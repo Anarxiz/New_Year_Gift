@@ -28,9 +28,12 @@ namespace WinFormsLab
         }
         private void Edit_Click(object sender, EventArgs e)
         {
-            Edit edit = new Edit(false, listBox_Sweets.SelectedIndex);
-            edit.ShowDialog();
-            UpdateListBox();
+            if (listBox_Sweets.SelectedIndex != -1)
+            {
+                Edit edit = new Edit(false, listBox_Sweets.SelectedIndex);
+                edit.ShowDialog();
+                UpdateListBox();
+            }
         }
 
         private void Delete_Click(object sender, EventArgs e)
