@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "Logic/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Logic.dll": {}
+        }
+      },
+      "New_year_library/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/New_year_library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/New_year_library.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Logic/1.0.0": {
+      "type": "project",
+      "path": "../Logic/Logic.csproj",
+      "msbuildProject": "../Logic/Logic.csproj"
+    },
+    "New_year_library/1.0.0": {
+      "type": "project",
+      "path": "../New_year_library/New_year_library.csproj",
+      "msbuildProject": "../New_year_library/New_year_library.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "Logic >= 1.0.0",
+      "New_year_library >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Igor\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Igor\\source\\repos\\WinFormsLab\\WinFormsLab.csproj",
+      "projectName": "WinFormsLab",
+      "projectPath": "C:\\Users\\Igor\\source\\repos\\WinFormsLab\\WinFormsLab.csproj",
+      "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Igor\\source\\repos\\WinFormsLab\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Igor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Igor\\source\\repos\\Logic\\Logic.csproj": {
+              "projectPath": "C:\\Users\\Igor\\source\\repos\\Logic\\Logic.csproj"
+            },
+            "C:\\Users\\Igor\\source\\repos\\New_year_library\\New_year_library.csproj": {
+              "projectPath": "C:\\Users\\Igor\\source\\repos\\New_year_library\\New_year_library.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

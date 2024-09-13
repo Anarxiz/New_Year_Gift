@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WinFormsLab/1.0.0": {
+        "dependencies": {
+          "Logic": "1.0.0",
+          "New_year_library": "1.0.0"
+        },
+        "runtime": {
+          "WinFormsLab.dll": {}
+        }
+      },
+      "Logic/1.0.0": {
+        "runtime": {
+          "Logic.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "New_year_library/1.0.0": {
+        "runtime": {
+          "New_year_library.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinFormsLab/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "New_year_library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
